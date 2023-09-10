@@ -24,7 +24,7 @@ public class Collections {
 
 
     public static void main(String ... args) {
-        // Listenbeispiel
+        // Listen Beispiel
         // Code bis Java 21
         var liste = new ArrayList<String>();
         liste.add("A");
@@ -43,7 +43,7 @@ public class Collections {
         liste.removeLast();
 
 
-        // Setbeispiel
+        // Set Beispiel
         var linkedMap = new LinkedHashMap<String, UUID>();
         linkedMap.put("B", UUID.randomUUID());
         linkedMap.putFirst("A", UUID.randomUUID());
