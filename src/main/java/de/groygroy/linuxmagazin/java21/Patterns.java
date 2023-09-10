@@ -28,10 +28,13 @@ public class Patterns {
         switch( o) {
             case Seite(var d, var a, var b)
                 when 10== a.klasse -> {
-                    System.out.printf("Untersekunda %s",a.schüler);
+                    System.out.printf("Untersekunda %s",a.schüler, b.schüler);
             }
             case Seite(var d, var a, var b) -> {
                 System.out.printf("Klasse %d %s",a.klasse, a.schüler);
+            }
+            case Eintrag(_, var schüler) -> {
+                System.out.printf("Schüler%s",schüler);
             }
             default -> {
                 System.out.printf("Anderes %s %n", o);

@@ -11,6 +11,6 @@
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
-    <option name="ADDITIONAL_OPTIONS_STRING" value="--enable-preview" />
+    <option name="ADDITIONAL_OPTIONS_STRING" value="--enable-preview  --add-modules jdk.incubator.vector" />
   </component>
 </project>
